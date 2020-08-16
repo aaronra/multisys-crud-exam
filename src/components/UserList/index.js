@@ -68,7 +68,7 @@ export const UserList = () => {
             </th>
           </tr>
         </thead>
-        <tbody>{mapUserList}</tbody>
+        <tbody>{users.length > 0 ? mapUserList : "No user List"}</tbody>
       </table>
     </section>
   );
